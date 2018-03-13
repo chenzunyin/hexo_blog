@@ -17,10 +17,9 @@ Hexo官网地址 : [Hexo官网](https://hexo.io)
 
 1. 首先安装git工具, 安装参考链接 : [git安装](https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git)
 2. 安装node.js, 安装参考链接 : [node.js安装](https://nodejs.org/zh-cn/download/)
-3. 安装Hexo : 
-* 这里在使用npm安装前先将安装源切换到国内，能够加快下载速度，切换方法如链接 : [npm源切换](https://segmentfault.com/a/1190000007829080)
-> npm config set registry https://registry.npm.taobao.org
+3. 安装Hexo : 这里在使用npm安装前先将安装源切换到国内，能够加快下载速度，切换方法如链接 : [npm源切换](https://segmentfault.com/a/1190000007829080)
 ```shell
+npm config set registry https://registry.npm.taobao.org
 npm install -g hexo
 ```
 4. 查看Hexo版本 :
@@ -79,4 +78,13 @@ npm install hexo-deployer-git --save
  hexo g
  hexo d
 ```
+## 使用已存在hexo仓库构建博客
+1. 使用git clone将仓库代码下载到本地
+2. 出现问题**ERROR** : *Local hexo not found in local dir*, 使用如下命令初始化hexo :
+```shell
+npm install hexo --save
+```
+3. 使用hexo g 生成静态网页, 使用hexo s查看显示状态.
+4. 如果出现网页空白并提示**WARN**  *No layout: index.html*错误, 去查看是否为使用的主题不存在导致的, 下载相应主题代码到themes文件夹下即可. Next主题链接如下 : [Next主题](http://theme-next.iissnan.com/getting-started.html)
+
 至此, 整个博客的搭建过程完成, 通过访问https://username.github.io查看效果.

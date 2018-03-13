@@ -18,6 +18,8 @@ Hexo官网地址 : [Hexo官网](https://hexo.io)
 1. 首先安装git工具, 安装参考链接 : [git安装](https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git)
 2. 安装node.js, 安装参考链接 : [node.js安装](https://nodejs.org/zh-cn/download/)
 3. 安装Hexo : 
+* 这里在使用npm安装前先将安装源切换到国内，能够加快下载速度，切换方法如链接 : [npm源切换](https://segmentfault.com/a/1190000007829080)
+> npm config set registry https://registry.npm.taobao.org
 ```shell
 npm install -g hexo
 ```

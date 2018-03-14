@@ -56,13 +56,13 @@ deploy:
 
 Hexo是静态博客框架, 静态博客, 只包含html, javascript脚本, css文件的网站, 没有动态的脚本. 虽然我们使用node进行开发, 但是博客发布之后就和node无关了, 发布之前, 我们通过一条命令, 对所有的文章做静态化处理, 就是生成对应的html, javascript, css, 使得发布的文章都是由静态文件组成的.
 
-* 静态化命令
-```shell
-hexo g (hexo generate)
-```
 * 编辑后本地查看效果
 ```shell
 hexo s
+```
+* 静态化命令
+```shell
+hexo g (hexo generate)
 ```
 * 部署命令
 ```shell
@@ -84,7 +84,8 @@ npm install hexo-deployer-git --save
 ```shell
 npm install hexo --save
 ```
-3. 使用hexo g 生成静态网页, 使用hexo s查看显示状态.
+3. 使用hexo s查看显示状态
 4. 如果出现网页空白并提示**WARN**  *No layout: index.html*错误, 去查看是否为使用的主题不存在导致的, 下载相应主题代码到themes文件夹下即可. Next主题链接如下 : [Next主题](http://theme-next.iissnan.com/getting-started.html)
-
+3. 使用hexo g 生成静态网页
+4. 使用hexo d 部署到github
 至此, 整个博客的搭建过程完成, 通过访问https://username.github.io查看效果.

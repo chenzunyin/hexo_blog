@@ -94,8 +94,8 @@ index_with_subtitle: false
 menu:
   home: / || home
   #about: /about/ || user
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
+  tags: /tags/ || tags
+  categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
@@ -127,7 +127,7 @@ scheme: Pisces
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/chenzunyin || github
+  Github: https://github.com/chenzunyin || github
   #E-Mail: mailto:chenzunyin@gmail.com || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -155,6 +155,15 @@ links_layout: block
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
 avatar: /images/tiger.jpg
+
+#add by czy
+
+# Donate  文章末尾添加打赏按钮
+#reward_comment: 坚持技术分享
+#wechatpay: /images/tiger.jpg
+#alipay: /images/tiger.jpg
+
+#end add czy
 
 # Table Of Contents in the Sidebar
 toc:
@@ -277,7 +286,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night bright
 
 
 # ---------------------------------------------------------------

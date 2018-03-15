@@ -81,3 +81,11 @@ deploy:
   type: git
   repo: https://github.com/chenzunyin/chenzunyin.github.io
   branch: master
+
+#add by czy
+#友情链接
+links_title: 发现更大的世界
+links:
+  知乎: https://www.zhihu.com
+
+#end add czy

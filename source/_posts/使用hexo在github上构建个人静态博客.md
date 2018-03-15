@@ -88,4 +88,14 @@ npm install hexo --save
 4. 如果出现网页空白并提示**WARN**  *No layout: index.html*错误, 去查看是否为使用的主题不存在导致的, 下载相应主题代码到themes文件夹下即可. Next主题链接如下 : [Next主题](http://theme-next.iissnan.com/getting-started.html)
 3. 使用hexo g 生成静态网页
 4. 使用hexo d 部署到github
-至此, 整个博客的搭建过程完成, 通过访问https://username.github.io查看效果.
+
+## 添加主题代码到现有工程中
+> 主题代码如next使用git仓库做版本管理, 这样直接添加进现有git仓库会涉及到git子模块的问题, 配置比较复杂, 故回避
+
+**这里的处理方式简单粗暴**
+1. 将Next主题使用git clone获取到本地
+2. 将主题内的文件全部拷贝到themes文件中
+
+这样代码就能够作为工程的一部分进行管理, 缺点就是无法使用git pull获取主题的更新
+
+**至此, 整个博客的搭建过程完成, 通过访问https://username.github.io查看效果**

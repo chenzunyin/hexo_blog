@@ -159,9 +159,9 @@ avatar: /images/tiger.jpg
 #add by czy
 
 # Donate  文章末尾添加打赏按钮
-#reward_comment: 坚持技术分享
-#wechatpay: /images/tiger.jpg
-#alipay: /images/tiger.jpg
+reward_comment: 分享让生活更有趣
+wechatpay: /images/wechatpay.jpg
+alipay: /images/alipay.jpg
 
 #end add czy
 

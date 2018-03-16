@@ -88,4 +88,12 @@ links_title: 发现更大的世界
 links:
   知乎: https://www.zhihu.com
 
+#algolia搜索
+algolia:
+  applicationID: 'RDWE8UP3KN'
+  apiKey: 'a62ac72dcf73e4e2d6154e13c4018da1'
+  adminApiKey: 'fc2ba9ef62ea7e9e42f873020c9b6396'
+  indexName: 'test_hexo_blog'
+  chunkSize: 5000
+
 #end add czy

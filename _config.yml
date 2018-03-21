@@ -87,6 +87,7 @@ deploy:
 links_title: 发现更大的世界
 links:
   翁天信: https://www.dandyweng.com
+  掘金: https://juejin.im
 
 #algolia搜索
 algolia:

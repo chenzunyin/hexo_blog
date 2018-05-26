@@ -6,6 +6,17 @@ tags:
 categories: 教程
 ---
 
+## PS:特别关注
+
+> 如果出现hexo s指令无效, 需要执行
+```shell
+npm install hexo-server --save
+```
+> 如果报错*Cannot GET /* , 执行
+```shell
+npm install
+```
+
 ## Hexo介绍
 
 Hexo官网地址 : [Hexo官网](https://hexo.io)
@@ -28,11 +39,11 @@ npm install -g hexo
 ```shell
 hexo v (hexo version)
 ```
-5. 建立一个工程文件夹, 并在文件夹中初始化hexo(**这一步仅需要在工程建立的时候使用**) : 
+5. 建立一个工程文件夹, 并在文件夹中初始化hexo(**这一步仅需要在工程建立的时候使用**) :
 ```shell
 hexo init
 ```
-6. 启动Hexo服务器, 打开提示端口 : 
+6. 启动Hexo服务器, 打开提示端口 :
 ```shell
 hexo s (hexo server)
 ```

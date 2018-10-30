@@ -17,4 +17,8 @@ categories:
 	- **Base**字段表示的为导出API
 	![objdump](http://p5l5fsh44.bkt.clouddn.com/objdump%E5%AF%BC%E5%87%BAAPI.png)
 
+> 查看静态库中API的命令
+
+1. ```nm -g --defined-only libxxx.a```
+
 > 以上

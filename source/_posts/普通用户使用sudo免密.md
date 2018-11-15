@@ -2,7 +2,7 @@
 title: 普通用户使用sudo免密
 date: 2018-05-21 20:42:40
 tags:
-categories:
+categories: linux相关
 ---
 > 用户在执行sudo指令时不用输入密码
 

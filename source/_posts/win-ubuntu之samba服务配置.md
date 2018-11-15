@@ -2,7 +2,7 @@
 title: win-ubuntu之samba服务配置
 date: 2018-05-15 14:02:58
 tags:
-categories:
+categories: linux相关
 ---
 > 这里简单介绍下samba服务的配置
 

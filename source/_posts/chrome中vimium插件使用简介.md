@@ -2,7 +2,7 @@
 title: chrome中vimium插件使用简介
 date: 2018-05-26 16:20:05
 tags:
-categories:
+categories: 工具使用介绍
 ---
 > 在chrome中添加vimium插件是为了用vim的哲学浏览web
 

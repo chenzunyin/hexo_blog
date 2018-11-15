@@ -2,7 +2,7 @@
 title: ubuntu添加ctags
 date: 2018-05-14 22:35:10
 tags:
-categories:
+categories: linux相关
 ---
 1. 使用命令apt install ctags安装ctags工具
 2. 在home用户目录下创建.vimrc文件

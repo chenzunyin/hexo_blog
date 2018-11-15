@@ -2,7 +2,7 @@
 title: 查看linux动态共享库中包含API的命令
 date: 2018-10-15 14:59:02
 tags:
-categories:
+categories: linux相关
 ---
 
 > 本文主要用于记录查看linux动态共享库中API的命令

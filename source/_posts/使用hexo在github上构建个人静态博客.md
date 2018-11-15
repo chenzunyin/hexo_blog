@@ -2,8 +2,7 @@
 title: 使用hexo在github上构建个人静态博客
 date: 2018-03-13 10:19:35
 tags:
-  - hexo, github
-categories: 教程
+categories: 工具使用介绍
 ---
 
 ## PS:特别关注

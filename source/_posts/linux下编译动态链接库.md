@@ -2,7 +2,7 @@
 title: linux下编译动态链接库
 date: 2018-10-15 21:03:19
 tags:
-categories:
+categories: linux相关
 ---
 
 > 本文档用于记录linux下编译动态链接库

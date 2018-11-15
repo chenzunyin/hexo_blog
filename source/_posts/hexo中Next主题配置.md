@@ -2,8 +2,7 @@
 title: hexo中Next主题配置
 date: 2018-03-15 11:25:05
 tags:
-  - Next, hexo
-categories: 教程
+categories: 工具使用介绍
 ---
 # Next主题配置
 > 设置Next主题主要是为了改变hexo默认主题显示的样式, 以一种更清新, 愉悦的方式来展示博客的内容
